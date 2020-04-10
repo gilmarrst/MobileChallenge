@@ -1,0 +1,650 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Acessar a Aplicação",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 65336000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "abro o aplicado Product Registration",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.ComumSteps.\u003cinit\u003e(ComumSteps.java:16)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-10T18:09:45.309Z",
+        "line": 8,
+        "name": "Cadastrar um novo produto",
+        "description": "",
+        "id": "realizar-cadastro--alteração-e-exclusão-de-um-produto;cadastrar-um-novo-produto",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3696000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "aceito as permissões solicitada pelo aplicativo",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.ComumSteps.\u003cinit\u003e(ComumSteps.java:28)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1297000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico no botão NEW",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:13)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7487000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencho o code \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1234\"",
+                  "offset": 16
+                }
+              ],
+              "location": "br.com.MobileProductChallenge.steps.CadastroDeProdutoSteps.\u003cinit\u003e(CadastroDeProdutoSteps.java:14)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1104000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencho a Description \"Suco de Fruta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Suco de Fruta\"",
+                  "offset": 23
+                }
+              ],
+              "location": "br.com.MobileProductChallenge.steps.CadastroDeProdutoSteps.\u003cinit\u003e(CadastroDeProdutoSteps.java:21)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1096000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "preencho o Packing \"Caixa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Caixa\"",
+                  "offset": 19
+                }
+              ],
+              "location": "br.com.MobileProductChallenge.steps.CadastroDeProdutoSteps.\u003cinit\u003e(CadastroDeProdutoSteps.java:26)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1089000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "preencho o Amount \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 18
+                }
+              ],
+              "location": "br.com.MobileProductChallenge.steps.CadastroDeProdutoSteps.\u003cinit\u003e(CadastroDeProdutoSteps.java:31)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1094000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "preencho o Unit value \"2.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2.00\"",
+                  "offset": 22
+                }
+              ],
+              "location": "br.com.MobileProductChallenge.steps.CadastroDeProdutoSteps.\u003cinit\u003e(CadastroDeProdutoSteps.java:37)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1096000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "preencho o Lot \"45\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"45\"",
+                  "offset": 15
+                }
+              ],
+              "location": "br.com.MobileProductChallenge.steps.CadastroDeProdutoSteps.\u003cinit\u003e(CadastroDeProdutoSteps.java:42)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 533000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "clico no botão salvar",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.CadastroDeProdutoSteps.\u003cinit\u003e(CadastroDeProdutoSteps.java:47)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MobileChallenge"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "Acessar a Aplicação",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "abro o aplicado Product Registration",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.ComumSteps.\u003cinit\u003e(ComumSteps.java:16)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-10T18:11:09.242Z",
+        "line": 19,
+        "name": "Validar dados do produto cadastrado",
+        "description": "",
+        "id": "realizar-cadastro--alteração-e-exclusão-de-um-produto;validar-dados-do-produto-cadastrado",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1453000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "o quadro do produto estiver sendo exibido",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:38)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "valido o label Code",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:42)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "valido o label Descripton",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:46)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "valido o label Packing",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:50)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "valida o lavel Amount",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:54)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "valido o label Unit value",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:58)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "valido o label Lot",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:62)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MobileChallenge"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "Acessar a Aplicação",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "abro o aplicado Product Registration",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.ComumSteps.\u003cinit\u003e(ComumSteps.java:16)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-10T18:11:11.234Z",
+        "line": 28,
+        "name": "Alterar o produto cadastrado",
+        "description": "",
+        "id": "realizar-cadastro--alteração-e-exclusão-de-um-produto;alterar-o-produto-cadastrado",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1136000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "clico no botão EDIT",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:18)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7015000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "preencho o code \"456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"456\"",
+                  "offset": 16
+                }
+              ],
+              "location": "br.com.MobileProductChallenge.steps.CadastroDeProdutoSteps.\u003cinit\u003e(CadastroDeProdutoSteps.java:14)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1101000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "preencho a Description \"Camisas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Camisas\"",
+                  "offset": 23
+                }
+              ],
+              "location": "br.com.MobileProductChallenge.steps.CadastroDeProdutoSteps.\u003cinit\u003e(CadastroDeProdutoSteps.java:21)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1071000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "preencho o Packing \"Pacote\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pacote\"",
+                  "offset": 19
+                }
+              ],
+              "location": "br.com.MobileProductChallenge.steps.CadastroDeProdutoSteps.\u003cinit\u003e(CadastroDeProdutoSteps.java:26)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1065000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "preencho o Amount \"50\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"50\"",
+                  "offset": 18
+                }
+              ],
+              "location": "br.com.MobileProductChallenge.steps.CadastroDeProdutoSteps.\u003cinit\u003e(CadastroDeProdutoSteps.java:31)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1070000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "preencho o Unit value \"25.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"25.00\"",
+                  "offset": 22
+                }
+              ],
+              "location": "br.com.MobileProductChallenge.steps.CadastroDeProdutoSteps.\u003cinit\u003e(CadastroDeProdutoSteps.java:37)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1075000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "preencho o Lot \"50\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"50\"",
+                  "offset": 15
+                }
+              ],
+              "location": "br.com.MobileProductChallenge.steps.CadastroDeProdutoSteps.\u003cinit\u003e(CadastroDeProdutoSteps.java:42)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 538000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "clico no botão salvar",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.CadastroDeProdutoSteps.\u003cinit\u003e(CadastroDeProdutoSteps.java:47)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1403000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "o quadro do produto estiver sendo exibido",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:38)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "valido o label Code",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:42)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "valido o label Descripton",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:46)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "valido o label Packing",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:50)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "valida o lavel Amount",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:54)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "valido o label Unit value",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:58)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "valido o label Lot",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:62)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MobileChallenge"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "Acessar a Aplicação",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "abro o aplicado Product Registration",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.ComumSteps.\u003cinit\u003e(ComumSteps.java:16)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-10T18:11:27.155Z",
+        "line": 45,
+        "name": "Excluir o produto cadastrado",
+        "description": "",
+        "id": "realizar-cadastro--alteração-e-exclusão-de-um-produto;excluir-o-produto-cadastrado",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1133000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "clico no botão DELETE",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:23)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1117000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "confirmo a exclusão do produto",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:28)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1102000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "valido a exclusão do produto",
+            "match": {
+              "location": "br.com.MobileProductChallenge.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:33)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MobileChallenge"
+          }
+        ]
+      }
+    ],
+    "name": "Realizar cadastro, alteração e exclusão de um produto",
+    "description": "",
+    "id": "realizar-cadastro--alteração-e-exclusão-de-um-produto",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ProdutoRegistrationCrud.feature",
+    "tags": [
+      {
+        "name": "@MobileChallenge",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
