@@ -24,8 +24,8 @@ Feature: Realizar cadastro, alteração e exclusão de um produto
     And valida o lavel Amount
     And valido o label Unit value
     And valido o label Lot
-    
-    Scenario: Alterar o produto cadastrado
+
+  Scenario: Alterar o produto cadastrado
     Given clico no botão EDIT
     When preencho o code "456"
     And preencho a Description "Camisas"
@@ -41,8 +41,8 @@ Feature: Realizar cadastro, alteração e exclusão de um produto
     And valida o lavel Amount
     And valido o label Unit value
     And valido o label Lot
-    
-    Scenario: Excluir o produto cadastrado
+
+  Scenario: Excluir o produto cadastrado
     When clico no botão DELETE
     Then confirmo a exclusão do produto
     And valido a exclusão do produto
